@@ -1,0 +1,14 @@
+# Installing SASS in your local environment
+
+To be able to install the Node.js package for Sass one has to ensure that node.js is already installed. To achieve this run the following command in the CLI
+
+```CLI
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+
+Exit the command line with the ***exit*** command and reopen the terminal.  
+Install SASS usng the command below.  
+
+```CLI
+npm install sass -v 3.7.4
+```
